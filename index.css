@@ -115,6 +115,7 @@ li a i {
     align-items: center;
     font-weight: 300;
     font-size: 20px;
+    box-shadow: 0 15px 10px -15px rgba(31, 31, 31, 0.3);   
 }
 
 .nav-two .logo img {
@@ -150,3 +151,83 @@ li a i {
     font-size: 24px;
 }
 
+/* Section Zero */
+
+.section-zero {
+    height: 120px;
+}
+
+/* Section one */
+
+.section-one-container {
+    width: 100%;
+    background-color: #efefef;
+
+}
+
+.section-one {
+    width: 90%;
+    margin: auto;
+}
+
+.s1-video-container {
+    position: relative;
+    margin: auto;
+}
+
+video {
+    width: 100%;
+    padding-bottom: 36px;
+}
+
+.video-layer {
+    position: absolute;
+    height: 100%;
+    left: 20%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #cf2e2e;
+    padding: 3em;
+}
+
+.video-layer p {
+    margin-top: 2em;
+    font-size: 2em;
+    color: #fff;
+}
+
+.video-layer a img {
+    width: 150px;
+    margin-bottom: 36px;
+}
+
+.s1-menu {
+    width: 70%;
+    margin: 32px auto;
+}
+
+.s1-menu li a {
+    font-weight: 500;
+    color: #3f3f3f;
+    font-size: 1.2em;
+    padding-bottom: 4px;
+    padding: 0 0 6px 0;
+    margin: 0 12px;
+    /* border: 1px solid #cf2e2e; */
+
+}
+
+.s1-menu .underline {
+    border: 1px solid #ccc;
+    width: 50%;
+    margin: auto;
+}
+
+.s1-menu li:hover .underline {
+    width: 90%;
+    border: 1px solid #3f3f3f;
+
+    transition: .3s;
+}
