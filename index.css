@@ -159,10 +159,10 @@ li a i {
 
 /* Section one */
 
-.section-one-container {
+.section-one-container,
+.s1-new-container {
     width: 100%;
     background-color: #efefef;
-
 }
 
 .section-one {
@@ -206,6 +206,7 @@ video {
 .s1-menu {
     width: 70%;
     margin: 32px auto;
+    padding-bottom: 32px;
 }
 
 .s1-menu li a {
@@ -230,4 +231,36 @@ video {
     border: 1px solid #3f3f3f;
 
     transition: .3s;
+}
+
+.s1-new-container {
+    padding: 64px 0;
+    box-shadow: 1px 1px 2px 2px rgba(31, 31, 31, 0.3);   
+    background-color: #efefef;
+}
+
+.s1-new {
+    display: block;
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.s1-new h3 {
+    color: #3f3f3f;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 12px 0;
+}
+
+.s1-new p:last-of-type {
+    margin:  24px 0;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.s1-new a {
+    text-decoration: none;
+    color: #0096c0;
+    margin-bottom: 40px;
 }
