@@ -43,11 +43,17 @@ body {
 
 p {
     color: #555555;
+    line-height: 26px;
 }
 
 h2 {
     color: #555555;
     font-size: 30px;
+}
+
+strong {
+    color: #555555;
+    font-weight: 500;
 }
 
 /* NAV */
@@ -264,3 +270,130 @@ video {
     color: #0096c0;
     margin-bottom: 40px;
 }
+
+/* Section two */
+
+.section-two-container {
+    width: 100%;
+}
+
+.section-two {
+    width: 70%;
+    margin: auto;
+}
+
+.s2a,
+.s2b {
+    display: flex;
+    gap: 36px;
+    margin-top: 96px;
+}
+
+.s2a-column {
+    flex: 1;
+    padding: 36px;
+}
+
+.s2b-column:last-of-type {
+    display: block;
+    width: 150%;
+
+}
+
+.s2a p {
+    margin: 24px 0;
+}
+
+.s2a p a,
+.s2b-column p a 
+ {
+    text-decoration: none;
+    color: #0096c0;
+    font-weight: 700;
+}
+
+.s2a p a:hover,
+.s2b-column p a:hover 
+ {
+    color: #067c9c;
+}
+
+.button {
+    margin: 12px 40px 12px 0;
+    display: inline-block;
+    border: 2px solid #000;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: 500;
+    color: #3f3f3f;
+    transition: 0.3s;
+}
+
+.button.green {
+    background-color: #7aa64e;
+    color: #fff;
+    font-weight: 700;
+    border: 2px solid #7aa64e;
+}
+
+.button.white:hover {
+    background-color: #3f3f3f;
+    border: 2px solid #3f3f3f;
+    color: #fff;
+}
+
+.button.green:hover {
+    background-color: #648840;
+    border: 2px solid #648840;
+    color: #fff;
+}
+
+.s2a-column:last-of-type h2 {
+    margin: 0 0 36px 16px;
+}
+
+.s2a-column ul li {
+    margin-left: 34px;
+    display: list-item;
+    float: none;
+    list-style: disc;
+    margin-top: 12px;
+} 
+
+.s2a-column ul li a {
+    display: inline-block;
+    color: #0096c0;
+    font-weight: 500;
+}
+
+.s2a-column .special {
+    display: inline;
+}
+
+.s2a-column ul li a:hover {
+    color: #067c9c;
+}
+
+.s2b-column:first-of-type {
+    width: 200%;
+    padding: 36px;  
+    /* border: 2px solid #000; */
+}
+
+.s2b-column h1 {
+    color: #3f3f3f;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.s2b-column h3 {
+    color: #555555;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.s2b-column p {
+    margin: 16px 0;
+}
+
