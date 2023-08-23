@@ -397,3 +397,56 @@ video {
     margin: 16px 0;
 }
 
+/* Section three */
+
+.section-three-container {
+    width: 100%;
+}
+
+.section-three {
+    width: 70%;
+    margin: 64px auto;
+}
+
+.section-three h2 {
+    text-align: center;
+    margin: 48px 0;
+}
+
+.s3-essentials-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.essentials {
+    display: block;
+    position: relative;
+    width: 280px;
+    height: 200px;
+    border-radius: 12px;
+} 
+
+.essentials img {
+    width: 280px;
+    height: 200px;
+    border-radius: 12px;
+}
+
+.essentials p {
+    position: absolute;
+    width: 100%;
+    top: 45%;
+    color: #0096c0;
+    background-color: #fff;
+    padding: 24px;
+    font-size: 18px;
+    font-weight: 500;
+    z-index: 3;
+    transition: .3s;
+}
+
+.essentials:hover p {
+    background-color: #3f3f3f;
+    color: #fff;
+}
