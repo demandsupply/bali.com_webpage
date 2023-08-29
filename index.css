@@ -532,6 +532,7 @@ video {
 .faq-answer {
     margin-left: 72px;
     cursor: text;
+    display: none;
 }
 /* 
 .faq-answer p:hover {
