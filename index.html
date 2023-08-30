@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Add the font famlily link from google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- remove the favicon console error -->
+    <link rel="icon" href="data:;base64,iVBORwOKGO=" />
 </head>
 <body>
     <div class="nav-container">
@@ -212,7 +213,9 @@
             </p>
             <h3 class="u400">Bali - Must Know & Facts</h3>
             <ul class="s4-faq-container">
-                <li id="faq-1a" class="faq-question" onclick="showAnswer('faq-1')">
+                <!-- onclick="showAnswer('faq-1')" -->
+                <!-- onclick="toggleAnswer()"  -->
+                <li id="faq-1a" class="faq-question" onclick="toggleAnswer1()" >
                     <a>
                         <i class="fa-solid fa-angle-down"></i>
                         <p>Can I travel to Bali? Do I need a Visa? What are the travel requirements?</p>
@@ -232,7 +235,7 @@
                         </div>
                     </div>
                 </li>
-                <li id="faq-2a" class="faq-question" onclick="showAnswer('faq-2')">
+                <li id="faq-2a" class="faq-question" onclick="toggleAnswer2()">
                     <a>
                         <i class="fa-solid fa-angle-down"></i>
                         <p>What steps do I need to take to plan my perfect Bali holiday?</p>

@@ -12,3 +12,32 @@ function showAnswer(id) {
     }
     return false;
 }
+
+function toggleAnswer1() {
+    var answer = document.getElementById("faq-1")
+    var displaySetting = answer.style.display;
+
+    if (displaySetting == 'block') {
+        answer.style.display = 'none';
+    }
+    else {
+        answer.style.display = 'block';
+    }
+}
+
+function toggleAnswer2() {
+    var answer = document.getElementById("faq-2")
+    var displaySetting = answer.style.display;
+
+    if (displaySetting == 'block') {
+        answer.style.display = 'none';
+    }
+    else {
+        answer.style.display = 'block';
+    }
+}
+
+// function all() {
+//     showAnswer(id);
+//     toggleAnswer(id);
+// }
