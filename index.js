@@ -10,11 +10,14 @@ function showAnswer(id) {
         for (var i=0; i < allAnswers.length; i++) {
             if (allAnswers[i] != answerId) {
                 allAnswers[i].style.display = "none";
+                allAnswers[i].parentElement.classList.remove('active');
             } else {
                 if (answerId.style.display == "none" || answerId.style.display == "") {
                     answerId.style.display = "block";
+                    answerId.parentElement.classList.add('active');
                 } else {
                     answerId.style.display = "none";
+                    allAnswers[i].parentElement.classList.remove('active');
                 }
             }
         }
