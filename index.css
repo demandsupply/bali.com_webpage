@@ -570,3 +570,78 @@ video {
 .faq-answer li {
     list-style: disc;
 }
+
+
+
+/* Section five */
+
+.section-five-container {
+    width: 100%;
+}
+
+.section-five {
+    width: 70%;
+    margin: 100px auto;
+}
+
+.section-five > div {
+    position: relative;
+}
+
+.section-five h2 {
+    font-size: 32px;
+    font-weight: 400;
+    margin: auto;
+    width: fit-content;
+    z-index: 1;
+    background-color: #fff;
+    padding: 0 16px;
+}
+
+.strikethrough {
+    border: 1px solid #efefef;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    z-index: -1;
+}
+
+.destination-container {
+    margin-top: 56px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.destination-box {
+    position: relative;
+    border: 1px solid #000;
+    width: 300px;
+}
+
+.destination-box h3 {
+    color: #ffffff;
+    z-index: 1;
+}
+
+.destination-box p {
+    color: #fff;
+}
+
+.dest-1 {
+    /* width: auto; */
+}
+
+.destination-box img {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    /* position: absolute; */
+    /* opacity: 0; */
+    border: 1px solid #000;
+    z-index: -1;
+    filter: brightness(80%);
+
+}
