@@ -611,8 +611,10 @@ video {
     margin: auto;
     margin-top: 56px;
     display: flex;
+    /* flex-direction: row; */
     flex-wrap: wrap;
     justify-content: center;
+    align-items: start;
     gap: 4px;
 }
 
@@ -626,6 +628,7 @@ video {
     justify-content: center;
     gap: 20px;
     padding: 64px;
+    height: 382px;
 }
 
 .destination-box h3 {
@@ -662,97 +665,97 @@ video {
 }
 
 .dest-2 {
-    background-image: url(https://bali.com/wp-content/uploads/2020/11/seminyak-beach-club.jpg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://bali.com/wp-content/uploads/2020/11/seminyak-beach-club.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .dest-3 {
-    background-image: url(https://bali.com/wp-content/uploads/2020/10/surf-kuta-beach.jpg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://bali.com/wp-content/uploads/2020/10/surf-kuta-beach.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .dest-4 {
-    background-image: url(https://bali.com/wp-content/uploads/2020/11/ubud-monkey-forest.jpg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://bali.com/wp-content/uploads/2020/11/ubud-monkey-forest.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .dest-5 {
-    background-image: url(https://bali.com/wp-content/uploads/2020/11/nusa-dua-beach.jpg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://bali.com/wp-content/uploads/2020/11/nusa-dua-beach.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .dest-6 {
-    background-image: url(https://bali.com/wp-content/uploads/2020/08/legian-beach-sunset-january-600.jpg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://bali.com/wp-content/uploads/2020/08/legian-beach-sunset-january-600.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .dest-7 {
-    background-image: url(https://bali.com/wp-content/uploads/2020/08/sanur-beach-weather-sunny-laidback.jpg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://bali.com/wp-content/uploads/2020/08/sanur-beach-weather-sunny-laidback.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .dest-8 {
-    background-image: url(https://bali.com/wp-content/uploads/2021/11/karma-beach-ungasan-uluwatu-600.jpeg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://bali.com/wp-content/uploads/2021/11/karma-beach-ungasan-uluwatu-600.jpeg);
     background-size: cover;
     background-position: center;
 }
 
 .dest-9 {
-    background-image: url(https://bali.com/wp-content/uploads/2020/08/bali-melasti-beach-sunrise.jpg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://bali.com/wp-content/uploads/2020/08/bali-melasti-beach-sunrise.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .dest-10 {
-    background-image: url(https://bali.com/wp-content/uploads/2021/09/jimbaran-beach.jpg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://bali.com/wp-content/uploads/2021/09/jimbaran-beach.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .dest-11 {
-    background-image: url(https://bali.com/wp-content/uploads/2020/08/scuba-diving-600.jpg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://bali.com/wp-content/uploads/2020/08/scuba-diving-600.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .dest-12 {
-    background-image: url(https://bali.com/wp-content/uploads/2020/11/bedugul-temple.jpg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://bali.com/wp-content/uploads/2020/11/bedugul-temple.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .dest-13 {
-    background-image: url(https://bali.com/wp-content/uploads/2020/12/kelingking-beach-nusa-penida-1200.jpg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://bali.com/wp-content/uploads/2020/12/kelingking-beach-nusa-penida-1200.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .dest-14 {
-    background-image: url(https://bali.com/wp-content/uploads/2023/07/Sidemen-ricefields-640.jpg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://bali.com/wp-content/uploads/2023/07/Sidemen-ricefields-640.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .dest-15 {
-    background-image: url(https://bali.com/wp-content/uploads/2023/07/batukaru-mountain-800.jpg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://bali.com/wp-content/uploads/2023/07/batukaru-mountain-800.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .dest-16 {
-    background-image: url(https://bali.com/wp-content/uploads/2022/02/lombok-surf-1280.jpg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://bali.com/wp-content/uploads/2022/02/lombok-surf-1280.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .dest-17 {
-    background-image: url(https://bali.com/wp-content/uploads/2022/09/gili-air-1200x800-1.jpg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://bali.com/wp-content/uploads/2022/09/gili-air-1200x800-1.jpg);
     background-size: cover;
     background-position: center;
 }
