@@ -91,7 +91,7 @@ ul {
 .nav-container li a i {
     margin-left: 6px;
     font-size: 14px;
-    font-weight: 100;
+    /* font-weight: 100; */
     -webkit-text-stroke: 0.01px;
     -webkit-font-smoothing: antialiased;
 }
@@ -101,18 +101,28 @@ ul {
     position: absolute;
     right: 0;
     height: 60px;
-    border: 1px solid #555555;
+    /* border: 1px solid #555555; */
     font-size: 17px;
 }
 
 .nav-one li {
     height: 40px;
     line-height: 40px;
-    border: 1px solid #000
+    /* border: 1px solid #000 */
 }
 
 .nav-one li a i {
     margin-left: -2px;
+}
+
+.nav-one .fa,
+.nav-one .fa-brands {
+    font-size: 24px;
+    margin: 0 -12px;
+}
+
+.nav-one .fa-shopping-cart {
+    margin-left: 12px;
 }
 
 .nav-two-container {
@@ -139,7 +149,7 @@ ul {
 
 .nav-two li {
     margin: 6px;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
 }
 
 .nav-two li a {
@@ -152,7 +162,7 @@ ul {
     padding: 0 2px;
 }
 
-.special {
+.nav-one .special {
     color: #cf2e2e;
 }
 
@@ -165,7 +175,9 @@ ul {
     font-size: 24px;
 }
 
-
+.nav-two-b {
+    border-top: 1px solid #6d6d6d;
+}
 
 /* Section Zero */
 
@@ -206,7 +218,7 @@ video {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: 1px solid #cf2e2e;
+    /* border: 1px solid #cf2e2e; */
     padding: 3em;
 }
 
@@ -214,14 +226,23 @@ video {
     margin-top: 2em;
     font-size: 2em;
     color: #fff;
+    /* border: 1px solid #cf2e2e; */
+}
+
+.video-layer span {
+    display: block;
+    margin-top: 100px;
 }
 
 .video-layer a img {
-    width: 150px;
+    width: 120px;
     margin-bottom: 36px;
 }
 
 .s1-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 70%;
     margin: 32px auto;
     padding-bottom: 32px;
