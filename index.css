@@ -567,7 +567,7 @@ video {
 
 .faq-answer {
     margin: 24px;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     cursor: text;
     display: none;
 }
@@ -578,6 +578,7 @@ video {
 
 .faq-answer a {
     color: #067c9c;
+    margin-bottom: 12px;
 }
 
 .faq-answer a:hover {
@@ -590,8 +591,30 @@ video {
 
 .faq-answer li {
     list-style: disc;
+    color: #3f3f3f;
+    margin: 0 0 16px 16px;
 }
 
+.faq-answer p {
+    margin-bottom: 12px;
+}
+
+.faq-answer h2 {
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.faq-answer h4 {
+    font-weight: 400;
+    color: #3f3f3f;
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+}
+
+.faq-answer img {
+    width: 95%;
+    margin: 24px 0;
+}
 
 
 /* Section five */
