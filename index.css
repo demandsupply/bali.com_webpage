@@ -616,6 +616,10 @@ video {
     margin: 24px 0;
 }
 
+.faq-answer .top-reasons li {
+    margin-left: 20px;
+    list-style: decimal;
+}
 
 /* Section five */
 
