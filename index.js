@@ -25,6 +25,35 @@ function showAnswer(id) {
     return false;
 }
 
+// Function TWO: top button scroll
+// Create a function which shows a top button after the user scrolled some pixels of the page
+
+// Get the button
+let mybutton = document.getElementById("fixed-button-top")
+
+
+// When user scroll down of the viewport size, show the button
+window.onscroll = function() {ButtonTopScroll()};
+
+// Create the function
+function ButtonTopScroll() {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display ="none";
+    }
+}
+
+// Create the function to go to the top
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop =0;
+}
+
+$(`html, body`).animate({scrollTop: 0}, 5000);
+
+
+
 // Function A:
 // Create a function which show / hide the div when the user clicks on it
 
