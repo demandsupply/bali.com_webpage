@@ -811,6 +811,16 @@ video {
 
 /* Section Six */
 
+.section-six-container {
+    width: 100%;
+    border-top: 3px solid #6d6d6d;
+}
+
+.section-six {
+    width: 80%;
+    margin: auto;
+}
+
 
 
 /* Footer */
@@ -970,7 +980,7 @@ video {
 
 .footer-three p,
 .footer-three strong {
-    color: #fff;
+    color: #6d6d6d;
 }
 
 .footer-three > div {
