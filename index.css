@@ -817,11 +817,156 @@ video {
 }
 
 .section-six {
-    width: 80%;
+    width: 60%;
     margin: auto;
+    padding: 64px;
 }
 
+.section-six-a {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
 
+.section-six .link-blue {
+    margin-top: 12px;
+    display: block;
+    text-decoration: none;
+    color: #067c9c;
+    font-size: 1.3rem;
+}
+
+.section-six .link-blue:hover {
+    color: #0096c0;
+}
+
+.section-six .button.white {
+    margin: 28px 0 12px 0;
+    font-size: 1.4rem;
+}
+
+.section-six .button.white:hover {
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: #6d6d6d;
+} 
+
+.section-six-column > a {
+    display: block;
+}
+
+.section-six-a-column ul p {
+    padding: 12px 0;
+    color: #000;
+}
+
+.section-six-a-column li {
+    display: inline;
+}
+
+.section-six-a-column li a {
+    width: 80%;
+    display: block;
+    color: #6d6d6d;
+    padding: 12px 0;
+    border-bottom: 0.5px solid #efefef;
+    transition: .3s;
+}
+
+.section-six-a-column li a:hover {
+    color: #000;
+}
+
+.section-six-a-column li:last-of-type a {
+    border-bottom: none;
+}
+
+.section-six-a-column:first-of-type {
+    width: 40%;
+}
+
+.section-six-a-column:last-of-type h1 {
+    font-weight: 400;
+    color: #6d6d6d;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.section-six-a-column:last-of-type form {
+    margin-top: 12px;
+    padding: 32px;
+    background-color: #f0f7ff;
+}
+
+fieldset {
+    padding: 12px 32px 32px 32px;
+    background-color: #fff;
+}
+
+form .container {
+    margin-top: 16px;
+}
+
+form h4 {
+    font-weight: 600;
+}
+
+form input {
+    margin-top: 6px;
+}
+
+form label {
+    margin-top: 6px;
+}
+
+form .small {
+    font-size: .8rem;
+    margin: 8px 0;
+}
+
+input[type=checkbox] {
+    margin-top: 12px;
+}
+
+input[type=text] {
+    padding: 6px;
+    width: 100%;
+}
+
+input[type=submit] {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: #2ba53f;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+label[for=agree] {
+    font-size: .9rem;
+}
+
+.section-six-b {
+    margin: 24px auto 36px;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid #0096c0; */
+
+    gap: 48px;
+}
+
+.section-six-b h2 {
+    font-weight: 400;
+    /* border: 1px solid #0096c0; */
+}
+
+.section-six-b img {
+    width: 180px;
+    /* border: 1px solid #0096c0; */
+}
 
 /* Footer */
 
@@ -834,7 +979,7 @@ video {
 .footer-one,
 .footer-two,
 .footer-three {
-    width: 70%;
+    width: 60%;
     margin: auto;
 }
 
