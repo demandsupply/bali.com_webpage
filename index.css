@@ -621,6 +621,11 @@ video {
     list-style: decimal;
 }
 
+.faq-answer .button {
+    color: #3f3f3f;
+    width: fit-content;
+}
+
 /* Section five */
 
 .section-five-container {
