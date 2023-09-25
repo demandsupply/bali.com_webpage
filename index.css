@@ -103,22 +103,34 @@ ul {
     height: 60px;
     /* border: 1px solid #555555; */
     font-size: 17px;
+    z-index: 2;
 }
 
 .nav-one li {
     height: 40px;
     line-height: 40px;
-    /* border: 1px solid #000 */
+    /* border: 1px solid #000; */
+    /* margin: 0 12px; */
+    padding: 0 6px;
 }
 
-.nav-one li a i {
+.nav-one li a {
+    padding: 0;
+}
+
+
+.nav-one li a .fa-angle-down {
     margin-left: -2px;
+}
+
+.language-selected .fa-angle-down {
+    padding-left: 4px;
 }
 
 .nav-one .fa,
 .nav-one .fa-brands {
     font-size: 24px;
-    margin: 0 -12px;
+    margin: 8px -4px 0 -4px;
 }
 
 .nav-one .fa-shopping-cart {
@@ -178,6 +190,7 @@ ul {
 .nav-two-b {
     border-top: 1px solid #6d6d6d;
 }
+
 
 /* Section Zero */
 
