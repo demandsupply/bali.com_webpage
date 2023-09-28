@@ -232,7 +232,7 @@ ul {
     right: 0;
     left: 0;
     background-color: #fff;
-    z-index: 11;
+    z-index: 111;
     padding: 0 36px 64px 36px;
 }
 
@@ -310,7 +310,7 @@ ul {
     z-index: -1;
 }
 
-.dropdown-contentA img:hover {
+.dropdown-contentA > img:hover {
     transform: scale(1.1);
     cursor: pointer;
 }
