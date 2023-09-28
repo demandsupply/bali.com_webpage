@@ -228,9 +228,7 @@ ul {
 
 .dropdown-content {
     position: absolute;
-    width: 100vw;
-    right: 0;
-    left: 0;
+    border: 2px solid #ccc;
     background-color: #fff;
     z-index: 111;
     padding: 0 36px 64px 36px;
@@ -367,6 +365,26 @@ figcaption:hover {
     border-radius: 2px;
     height: 28px;
     line-height: 12px;
+}
+
+.dropdown-contentA {
+    width: 100vw;
+    right: 0;
+    left: 0;
+}
+
+.dropdown-contentB {
+    width: fit-content;
+    height: 100px;
+    padding: 0 36px 0 20px;
+    margin-left: -20px;
+    /* display: block; */
+}
+
+.dropdown-contentC {
+    height: 200px;
+    padding-top: 16px;
+    /* display: block; */
 }
 
 /* Section Zero */
