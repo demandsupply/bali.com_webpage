@@ -231,7 +231,11 @@ ul {
     border: 2px solid #ccc;
     background-color: #fff;
     z-index: 111;
-    padding: 0 36px 64px 36px;
+    padding: 0 36px 0px 36px;
+}
+
+.dropdown-content p {
+    font-size: 1rem;
 }
 
 .dropdown-content > div {
@@ -385,8 +389,21 @@ figcaption:hover {
     line-height: 20px;
 }
 
+.dropdown-contentA {
+    padding-bottom: 64px;
+}
+
 .dropdown-contentA,
-.dropdown-content1 {
+.dropdown-content1,
+.dropdown-content2,
+.dropdown-content3,
+.dropdown-content4,
+.dropdown-content5,
+.dropdown-content6,
+.dropdown-content7,
+.dropdown-content8,
+.dropdown-content9,
+.dropdown-content10 {
     width: 100vw;
     right: 0;
     left: 0;
@@ -407,8 +424,8 @@ figcaption:hover {
 }
 
 .dropdown-content1 {
-    margin-top: 400px;
-    display: block;
+    padding-bottom: 64px;
+    /* display: block; */
 }
 
 .a-special {
@@ -419,6 +436,113 @@ figcaption:hover {
     display: block;
     padding-top: 42px;
     color: #cf2e2e;
+}
+
+.dropdown-content2 {
+    /* display: block; */
+}
+
+.dc2-container {
+    margin: 56px auto 0 auto;
+    width: 80%;
+    border: 2px solid #ccc;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    padding: 16px;
+}
+
+.dc2-container h1,
+.dc2-container h3 {
+    color: #cf2e2e;
+    text-align: center;
+}
+
+.dc2-container h2,
+.dc2-container p {
+    text-align: center;
+}
+
+.dc2-container h1 {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.dc2-container h2 {
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.dc2-container h3 {
+    font-weight: 400;
+}
+
+.dc2-container a {
+    font-weight: 500;
+    color: #0096c0;
+}
+
+.dc2-container a:hover {
+    color: #067c9c;
+}
+
+.dc2-images-container {
+    margin: 24px auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.dc2-images-container img {
+    box-shadow: 1px 1px 2px 1px rgba(31, 31, 31, 0.1);   
+    width: 80px;
+}
+
+.dropdown-content3 {
+    display: block;
+}
+
+.dc3-container {
+    margin: 36px auto;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 1px 1px 2px 1px rgba(31, 31, 31, 0.2);   
+    justify-content: space-between;
+}
+
+.dc3-container img {
+    display: block;
+    margin: auto;
+    width: 96px;
+    padding: 12px;
+}
+
+.dc3-container a {
+    flex: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: .5px solid #ccc;
+    border-left: 0.5px solid #ccc;
+    padding: 12px;
+}
+
+.dc3-container span {
+    padding: 12px;
+    display: block;
+    color: #0096c0;
+    font-weight: 600;
+    text-align: center;
+    transition: .3s;
+}
+
+.dc3-container span:hover {
+    color: #067c9c;
 }
 
 /* Section Zero */
