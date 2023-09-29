@@ -241,6 +241,7 @@ ul {
 }
 
 .dropdown-content h1 {
+    font-size: 1.6rem;
     margin: 48px 0 24px 0;
     font-weight: 400;
     color: #3f3f3f;
@@ -248,7 +249,8 @@ ul {
 
 .dropdown-content h4 {
     color: #000;
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 1rem;
 }
 
 .dropdown-content ul {
@@ -261,7 +263,9 @@ ul {
     position: relative;
 }
 
-.dropdown-content li a {
+.dropdown-content li a,
+.dropdown-content a {
+    font-size: 1rem;
     display: block;
     transition: 0.3s;
 }
@@ -275,16 +279,17 @@ ul {
 }
 
 
-.dropdown-contentA .dcA-container {
+.dropdown-content .dcA-container {
     display: flex;
 }
 
-.dropdown-contentA .dcA-column {
+.dropdown-content .dcA-column {
     flex: 1 0 0;
+    padding: 12px;
     /* border: 1px solid #000; */
 }
 
-.dropdown-contentA .dcA-column > a {
+.dropdown-content .dcA-column > a {
     cursor: auto;
 }
 
@@ -323,7 +328,7 @@ figcaption:hover {
     cursor: pointer;
 }
 
-.li-mark:last-of-type {
+.dropdown-contentA .li-mark:last-of-type {
     margin: 34px 0;
 }
 
@@ -333,12 +338,14 @@ figcaption:hover {
     position: relative;
 }
 
-.a-mark span:last-of-type {
+.a-mark span:first-of-type {
     /* border: 1px solid #000; */
+    padding-right: 56px;
 }
 
 .hot,
-.balic {
+.balic,
+.bnew {
     position: absolute;
     right: 0;
     top: 15%;
@@ -367,7 +374,19 @@ figcaption:hover {
     line-height: 12px;
 }
 
-.dropdown-contentA {
+.bnew {
+    background-color: #000;
+    font-size: 10px;
+    font-weight: 700;
+    color: #fff;
+    padding: 0 4px;
+    border-radius: 2px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.dropdown-contentA,
+.dropdown-content1 {
     width: 100vw;
     right: 0;
     left: 0;
@@ -385,6 +404,21 @@ figcaption:hover {
     height: 200px;
     padding-top: 16px;
     /* display: block; */
+}
+
+.dropdown-content1 {
+    margin-top: 400px;
+    display: block;
+}
+
+.a-special {
+    /* border: 1px solid #000; */
+}
+
+.a-special strong {
+    display: block;
+    padding-top: 42px;
+    color: #cf2e2e;
 }
 
 /* Section Zero */
