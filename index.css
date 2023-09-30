@@ -304,7 +304,8 @@ ul {
     z-index: 1;
 }
 
-.dropdown-contentA img {
+.dropdown-contentA img,
+.dropdown-content8 img {
     display: block;
     width: 300px;
     margin: auto;
@@ -312,12 +313,13 @@ ul {
     z-index: -1;
 }
 
-.dropdown-contentA img:hover {
+.dropdown-contentA img:hover,
+.dropdown-content8 img:hover {
     transform: scale(1.1);
     cursor: pointer;
 }
 
-.dropdown-contentA figcaption {
+figcaption {
     display: block;
     width: 300px;
     margin: 16px auto;
@@ -646,10 +648,50 @@ figcaption:hover {
 }
 
 .dropdown-content8 {
-    display: block;
+    /* display: block; */
+}
+
+.dc8-container {
+    margin-top: 64px;
+    display: flex;
+}
+
+.dc8-container img {
+    width: 300px;
+}
+
+.dc8-container .hot {
+    position: absolute;
+    left: 60%;
+    /* color: #0096c0; */
+}
+
+.dropdown-content9 {
+    /* display: block; */
+}
+
+.dc9-container h1{
+    margin-bottom: -6px;
 }
 
 
+.dc9-container {
+    display: flex;
+    justify-content: center;
+}
+
+.dc9-container > div {
+    flex: 1 0;
+}
+
+.dc9-container > div > div{
+    display: flex;
+    /* width: 50%; */
+}
+
+.dropdown-content10 {
+    display: block;
+}
 
 
 /* Section Zero */
