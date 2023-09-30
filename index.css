@@ -203,6 +203,15 @@ ul {
     border-top: 1px solid #6d6d6d;
 }
 
+.fix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* display: block; */
+    z-index: 111;
+    background-color: #fff;
+}
+
 
 /* Nav sum menu's */
 
@@ -1573,7 +1582,7 @@ label[for=agree] {
 .footer-site {
     padding-top: 24px;
     position: relative;
-    border: 1px solid #067c9c;
+    /* border: 1px solid #067c9c; */
     text-align: center;
 }
 
@@ -1589,6 +1598,7 @@ label[for=agree] {
     width: 100%;
     top: 60%;
     z-index: 0;
+    color: transparent;
 }
 
 .footer-one-columns {

@@ -54,6 +54,30 @@ $(`html, body`).animate({scrollTop: 0}, 5000);
 
 
 
+// Function THREE: show on scroll nav menu
+// Create a function which shows the second nav menu whente the usere scroll down the page by n amount
+
+let navScroll = document.getElementById("nav-scroll");
+let prevScroll = window.scrollY;
+
+// window.onscroll = function() {
+//     var currentScroll = window.scrollY;
+//     if (prevScroll > currentScroll) {
+//         navScroll.style.top = "0";
+//     } else {
+//         navScroll.style.top = "-300px";
+//     }
+//     prevScroll = currentScroll;
+// }
+
+let navOffset = navScroll.offsetTop; 
+
+window.addEventListener("scroll", () => {
+    (window.scrollY > 100) ?
+    navScroll.classList.add("fix") :
+    navScroll.classList.remove("fix");
+}); 
+
 // Function A:
 // Create a function which show / hide the div when the user clicks on it
 
