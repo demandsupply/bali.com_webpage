@@ -398,8 +398,7 @@ figcaption:hover {
 .dropdown-content6,
 .dropdown-content7,
 .dropdown-content8,
-.dropdown-content9,
-.dropdown-content10 {
+.dropdown-content9 {
     padding-bottom: 64px;
 }
 
@@ -690,9 +689,51 @@ figcaption:hover {
 }
 
 .dropdown-content10 {
-    display: block;
+    /* display: block; */
 }
 
+.dc10-container {
+    display: flex;
+}
+
+.dc10-container .dc10-div {
+    display: flex;
+}
+
+.dc10-container h3 {
+    color: #6d6d6d;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.dc10-container h2 {
+    color: #cf2e2e;
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 16px;
+}
+
+.dc10-container img {
+    padding-top: 48px;
+    width: 120px;
+    display: block;
+    margin: 36px auto;
+    cursor: pointer;
+}
+
+.dc10-container .dcA-column > a {
+    display: block;
+    margin-top: 24px;
+}
+
+.dc10-container .button.white {
+    width: fit-content;
+    padding: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: auto;
+}
 
 /* Section Zero */
 
