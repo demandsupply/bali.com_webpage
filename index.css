@@ -392,7 +392,12 @@ figcaption:hover {
 
 .dropdown-contentA,
 .dropdown-content4,
-.dropdown-content5 {
+.dropdown-content5,
+.dropdown-content6,
+.dropdown-content7,
+.dropdown-content8,
+.dropdown-content9,
+.dropdown-content10 {
     padding-bottom: 64px;
 }
 
@@ -563,7 +568,7 @@ figcaption:hover {
 }
 
 .dropdown-content5 {
-    display: block;
+    /* display: block; */
 }
 
 .dc5-container {
@@ -574,6 +579,74 @@ figcaption:hover {
 .h1-column {
     position: absolute;
     top: 0;
+}
+
+.dropdown-content6 {
+    /* display: block; */
+}
+
+.dc6-container {
+    margin-top: 24px;
+    display: flex;
+}
+
+.button.green:hover {
+    cursor: pointer;
+}
+
+.button.blue {
+    color: #fff;
+    font-weight: 700;
+    border: 1px solid #0096c0;
+    background-color: #0096c0;
+    width: fit-content;
+    height: fit-content;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.dc6-container .button.blue {
+    position: absolute;
+    right: 30%;
+    bottom: 20%;
+}
+
+.button.blue:hover {
+    border: 1px solid #067c9c;
+    background-color: #067c9c;
+    cursor: pointer;
+}
+
+.dropdown-content7 {
+    /* display: block; */
+}
+
+.dc7-container {
+    display: flex;
+    gap: 56px;
+}
+
+.dc7-container .dcA-column:first-of-type > div {
+    display: flex;
+}
+
+.dc7-container .balic {
+    width: 64px;
+    line-height: 26px;
+}
+
+.dc7-container .button.green {
+    width: fit-content;
+}
+
+.dc7-container .dcA-column:last-of-type {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.dropdown-content8 {
+    display: block;
 }
 
 
