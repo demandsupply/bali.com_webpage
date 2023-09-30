@@ -1580,6 +1580,7 @@ label[for=agree] {
 }
 
 .footer-site {
+    height: 160px;
     padding-top: 24px;
     position: relative;
     /* border: 1px solid #067c9c; */
@@ -1587,9 +1588,15 @@ label[for=agree] {
 }
 
 .footer-site img {
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    transform: translateX(100%);
+    transform: translateY(-50%);
     width: 16rem;
-    z-index: 0;
+    z-index: 1;
     background-color: #3f3f3f;
+    padding: 24px;
 }
 
 .footer-site .strikethrough {    
@@ -1712,7 +1719,7 @@ label[for=agree] {
 
 .footer-three p {
     margin-top: 16px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 svg {
@@ -1724,6 +1731,7 @@ svg {
     width: 88px;
     height: 48px;
     padding: 6px 10px;
+    transform: scale(0.7);
 }
 
 
